@@ -7,10 +7,6 @@
   font-weight: 900; 
 } 
 
-/* 
-font-family: "Avenir", sans-serif;
-*/
-
 body {
   margin: 0;  
   background-color: #000;
@@ -423,6 +419,7 @@ main {
 
 }
 
+/* -----Mobile----- */
 
 @media (max-width: 940px) {
   .welcome__cta {
@@ -594,14 +591,9 @@ main {
     background: linear-gradient(180deg, #000000 -3%, rgba(0, 0, 0, 0) 55%, #000000 84%), url("./img/bg-scanner.jpg");
   }
 
-  /* .code {
-    background: none;
-  } */
-
   .code::before {
     background: linear-gradient(180deg, #000000 -3%, rgba(0, 0, 0, 0) 55%, #000000 84%), url("./img/bg-code.jpg");
   }
-
   
   .common::before {
     content: "";
@@ -647,5 +639,4 @@ main {
   .header__login {
     font-size: 14px;
   }
-
 }
